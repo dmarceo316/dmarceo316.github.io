@@ -9,7 +9,7 @@ body{
 
 /* Global */
 .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden; 
 }
@@ -79,7 +79,7 @@ header #branding{
 header #branding h1{
     font-family: 'Overpass Mono', monospace;
     margin:0;
-    font-size: 50px;
+    font-size: 2em;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -114,7 +114,7 @@ header a:hover{
 }
 
 #showcase-1 h1{
-    font-size: 50px;
+    font-size: 2em;
     text-transform: uppercase;
     padding-top:40px;
     letter-spacing: 3px;
@@ -211,21 +211,32 @@ footer li{
         display:flex;
         flex-direction: column; 
         align-items: center;
-        width: 50%;
+        width: 0px;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: 0.5s ease-in;
     }
     .nav-links li{
         opacity: 0;
+        margin-right: 100px;
     }
 
     header .burger{
         display: block; 
         cursor: pointer;
     }
+    /*BOX*/
+
+    .box{
+        margin-top: 20px;
+        float: left;
+        text-align: center;
+        width:100%;
+        padding:10px;
+    }
 }
 
 .nav-active{
+    width: 100%;
     transform: translateX(0%);
 }
 
@@ -253,3 +264,8 @@ footer li{
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
