@@ -106,8 +106,9 @@ header a:hover{
 /* showcase */ 
 #showcase-1{
     min-height: 400px;
-    background:url('../Images/burger1.png') no-repeat 0, 0px;
+    background:url('/Images/burger1.png') no-repeat 0, 0px;
     background-attachment: fixed;
+    background-size: cover;
     background-position: center;
     text-align: center;
     color: rgb(235, 233, 233)
@@ -202,6 +203,20 @@ footer li{
     body{
         overflow-x: hidden;
     }
+
+    #showcase-1{
+        min-height: 400px;
+        background:url('/Images/burger1.png');
+        background-size: cover;
+        max-width: 786px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        text-align: center;
+        color: rgb(235, 233, 233);
+    }
+
+    
      .nav-links{
         position: absolute;
         right: 0px; 
