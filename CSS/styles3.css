@@ -107,7 +107,7 @@ header a:hover{
 #showcase-1{
     min-height: 400px;
     background:url('/Images/burger1.png') no-repeat;
-    position: fixed;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -209,7 +209,6 @@ footer li{
         background:url('/Images/burger1.png');
         background-size: cover;
         max-width: 786px;
-        position: fixed;
         width: 100%;
         background-position: center;
         text-align: center;
